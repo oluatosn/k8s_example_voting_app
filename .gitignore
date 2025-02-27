@@ -1,0 +1,42 @@
+# Kubernetes secrets
+*secret*.yaml
+*secret*.yml
+*secrets*.yaml
+*secrets*.yml
+
+# Local configuration
+kubeconfig
+*.kubeconfig
+
+# Terraform state files (if using Terraform to manage infrastructure)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Environment variables
+.env
+*.env
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Certificate files
+*.pem
+*.key
+*.crt
